@@ -3,7 +3,6 @@
 # Maintainers: Sara Khan, Kristin VanderEnde, Arie Voorman
 ##########################################
 
-source("./sourcefiles/Packages_Functions_Colors.R", local=T)
 
 ### Bring in Packages =====
 
@@ -14,6 +13,8 @@ library(broom)
 library(geojsonio)
 library(readxl)
 
+### Read in functions and colors ======
+source("./sourcefiles/Packages_Functions_Colors.R", local=T)
 
 ##########################################
 ## Data reading * manual step! =====
